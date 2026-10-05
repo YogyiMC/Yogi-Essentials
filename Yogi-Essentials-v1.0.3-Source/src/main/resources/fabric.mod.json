@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "yogiessentials",
+  "version": "${version}",
+  "name": "Yogi Essentials",
+  "description": "A lightweight PvP and SMP essentials mod with customizable visuals, HUD modules, profiles, and quality-of-life features.",
+  "authors": [
+    "Yogi Essentials"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/yogiessentials/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "dev.yogi.yogiessentials.YogiEssentials"
+    ],
+    "client": [
+      "dev.yogi.yogiessentials.client.YogiEssentialsClient"
+    ]
+  },
+  "mixins": [
+    "yogiessentials.mixins.json",
+    {
+      "config": "yogiessentials.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

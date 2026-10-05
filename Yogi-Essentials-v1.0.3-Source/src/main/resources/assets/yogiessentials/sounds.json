@@ -1,0 +1,7 @@
+{
+  "crystal_place": {
+    "sounds": [
+      { "name": "minecraft:block.glass.place", "type": "event" }
+    ]
+  }
+}

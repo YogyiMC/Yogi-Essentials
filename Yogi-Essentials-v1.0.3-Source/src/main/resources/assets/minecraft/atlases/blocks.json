@@ -1,0 +1,8 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "yogiessentials:block/low_fire_internal"
+    }
+  ]
+}
